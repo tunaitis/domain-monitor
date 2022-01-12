@@ -94,3 +94,7 @@ Application settings can be managed from the Values page inside the Realm UI.
 ## Credits
 
 Logo icon is by [Andrejs Kirma](https://thenounproject.com/andrejs/) from [NounProject.com](https://thenounproject.com/).
+  
+## License
+  
+The Domain Monitor is free and open-source software licensed under the [Apache License 2.0](https://github.com/tunaitis/domain-monitor/blob/master/LICENSE).
