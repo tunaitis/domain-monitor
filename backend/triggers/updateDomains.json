@@ -1,0 +1,15 @@
+{
+    "name": "updateDomains",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */24 * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "update"
+            }
+        }
+    }
+}

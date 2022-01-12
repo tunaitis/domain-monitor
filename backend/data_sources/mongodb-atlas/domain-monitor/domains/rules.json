@@ -1,0 +1,21 @@
+{
+    "collection": "domains",
+    "database": "domain-monitor",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {
+                "userId": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {
+                "write": false,
+                "read": true
+            }
+        }
+    ]
+}

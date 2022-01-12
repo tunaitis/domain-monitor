@@ -1,0 +1,5 @@
+{
+    "name": "smtpHost",
+    "value": "",
+    "from_secret": false
+}

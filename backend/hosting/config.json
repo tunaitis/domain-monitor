@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "default_response_code": 200,
+  "default_error_path": "/index.html"
+}

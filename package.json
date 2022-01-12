@@ -1,0 +1,59 @@
+{
+  "name": "domain-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.14",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "bootstrap": "^5.1.3",
+    "classnames": "^2.3.1",
+    "history": "^5.2.0",
+    "nodemailer": "^6.7.2",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.3",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "realm-web": "^1.5.1",
+    "typescript": "^4.5.4",
+    "web-vitals": "^2.1.2",
+    "whoiser": "^1.13.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "BUILD_PATH='./backend/hosting/files' react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "prettier": "2.5.1"
+  },
+  "prettier": {
+    "semi": false
+  }
+}

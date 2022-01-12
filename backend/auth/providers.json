@@ -1,0 +1,14 @@
+{
+    "local-userpass": {
+        "name": "local-userpass",
+        "type": "local-userpass",
+        "config": {
+            "autoConfirm": false,
+            "confirmationFunctionName": "registrationConfirmation",
+            "resetPasswordSubject": "",
+            "resetPasswordUrl": "https://not-provided",
+            "runConfirmationFunction": true
+        },
+        "disabled": false
+    }
+}

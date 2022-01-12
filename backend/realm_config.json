@@ -1,0 +1,9 @@
+{
+  "config_version": 20210101,
+  "name": "domain-monitor",
+  "hosting": {
+    "enabled": true,
+    "default_response_code": 200,
+    "default_error_path": "/index.html"
+  }
+}

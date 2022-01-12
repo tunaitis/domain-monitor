@@ -1,0 +1,25 @@
+.btn-vertical-ellipsis {
+    padding: 0;
+    font-size: 0;
+    font-weight: normal;
+}
+
+.btn-vertical-ellipsis::after {
+    display: none !important;
+}
+
+.domains .accordion-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.domains .accordion-button:not(.collapsed) {
+    background-color: unset;
+    color: unset;
+    box-shadow: unset;
+}
+
+.domains .accordion-body {
+    padding-top: 0;
+}
+

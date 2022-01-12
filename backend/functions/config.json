@@ -1,0 +1,16 @@
+[
+    {
+        "name": "registrationConfirmation",
+        "private": false
+    },
+    {
+        "name": "update",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "whois",
+        "private": false,
+        "run_as_system": true
+    }
+]
