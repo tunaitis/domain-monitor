@@ -1,12 +1,1 @@
-[
-    {
-        "route": "/whois",
-        "http_method": "POST",
-        "function_name": "whois",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": false,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    }
-]
+[]
