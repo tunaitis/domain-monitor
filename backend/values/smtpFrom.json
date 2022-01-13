@@ -1,5 +1,5 @@
 {
-    "name": "smtpUser",
+    "name": "smtpFrom",
     "value": "",
     "from_secret": false
 }
