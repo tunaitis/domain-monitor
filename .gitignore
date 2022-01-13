@@ -24,3 +24,6 @@ yarn-error.log*
 
 # JetBrains
 .idea/
+
+# output
+backend/hosting/files/
