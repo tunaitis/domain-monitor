@@ -63,10 +63,10 @@ REACT_APP_REALM_APP_ID="<Your App ID>" npm run build
 Now you're ready to deploy the application to the MongoDB Cloud. 
 
 ```shell
-realm-cli push 
-  --include-package-json 
-  --include-hosting 
-  --local="backend" 
+realm-cli push \
+  --include-package-json \
+  --include-hosting \
+  --local="backend" \
   --remote="<Your App ID>"
 ```
 
